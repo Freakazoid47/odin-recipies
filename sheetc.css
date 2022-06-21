@@ -1,0 +1,83 @@
+header{
+    font-family: fantasy;
+    font-size: 60px;
+    background-color: #f1f1f1bc; 
+    text-align: center;
+    text-decoration: wavy;
+    padding: 5px 2px 2px 2px;
+    font-weight: 600;
+    border-radius: 30px;
+    border-width: 30px;
+    margin-bottom: 2px;
+   
+}
+
+p{
+    color: #f1f1f1ac;
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-rows: 150px auto 100px;
+    margin:0;
+    background:linear-gradient(180deg, rgba(106, 182, 0, 0.794), rgb(128, 92, 0)) fixed;
+    height:100%;
+    overflow-anchor:none;
+    background-image: url(../odin-recipies/images/flower.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.sardinepik{
+    width: 250px;
+    height:250px;
+    opacity: 0.9;
+    filter:brightness(2nits);
+    position: relative;
+    border: #f2f2f21f;
+    border-radius: 47px;
+    margin-left:20px;
+    background-repeat: no-repeat;
+}
+
+.tomatoespik{
+    width: 250px;
+    height:250px;
+    opacity: 0.9;
+    filter:brightness(100nits);
+    position: relative;
+    border: #f2f2f21f;
+    border-radius: 47px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+
+
+}
+
+.pholoriepik{
+    width: 250px;
+    height:250px;
+    opacity: 0.9;
+    filter:brightness(100nits);
+    position: top right;
+    border: #f2f2f21f;
+    border-radius: 47px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 250px;
+    height:250px;
+    opacity: 0.7;
+    filter:brightness(100nits);
+    border-radius: 47px;
+    border-color: aquamarine;
+    margin-left:10px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+ 

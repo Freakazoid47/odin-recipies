@@ -1,3 +1,3 @@
-# odin-recipies
+Odin-recipies
 Cookbook
-A local cookbook for the most succulant code on the hub
+A local cookbook for the most succulant dishes on the hub
