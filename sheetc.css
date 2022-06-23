@@ -1,29 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
     font-family: fantasy;
-    font-size: 60px;
-    background-color: #f1f1f1bc; 
+    color: azure;
+    background-color: rgba(166, 0, 255, 0.803); opacity: 0.7;
     text-align: center;
     text-decoration: wavy;
-    padding: 5px 2px 2px 2px;
+    font-size: 50px;
     font-weight: 600;
-    border-radius: 30px;
-    border-width: 30px;
-    margin-bottom: 2px;
-   
+    border-radius: 100vmax;
+    border-style:groove double; 
+    display: inline-block;
+}
+  
+
+.heads{
+    font-size: 25px;
+    text-align: center;
 }
 
 p{
-    color: #f1f1f1ac;
-    font-size: 30px;
+    color: burlywood;
+    font-size: 20px;
     text-align: center;
+    font-weight: 100;
 }
-body{
-    display: grid;
-    grid-template-rows: 150px auto 100px;
-    margin:0;
+body{  
+    display: flexbox;
+    position: relative;
+    margin: 5px;
+    height: 100vh;
+    box-sizing: border-box;
     background:linear-gradient(180deg, rgba(106, 182, 0, 0.794), rgb(128, 92, 0)) fixed;
-    height:100%;
-    overflow-anchor:none;
+    overflow: 0px;
     background-image: url(../odin-recipies/images/flower.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,12 +44,10 @@ body{
     width: 250px;
     height:250px;
     opacity: 0.9;
-    filter:brightness(2nits);
+    filter:brightness(100nits);
     position: relative;
     border: #f2f2f21f;
     border-radius: 47px;
-    margin-left:20px;
-    background-repeat: no-repeat;
 }
 
 .tomatoespik{
@@ -49,8 +58,7 @@ body{
     position: relative;
     border: #f2f2f21f;
     border-radius: 47px;
-    margin-right: 20px;
-    background-repeat: no-repeat;
+    display: block;
 
 
 }
@@ -60,24 +68,156 @@ body{
     height:250px;
     opacity: 0.9;
     filter:brightness(100nits);
-    position: top right;
+    position: relative;
     border: #f2f2f21f;
     border-radius: 47px;
-    margin-right: 20px;
-    background-repeat: no-repeat;
 }
 
 img{
     width: 250px;
     height:250px;
-    opacity: 0.7;
+    opacity: 0.9;
     filter:brightness(100nits);
     border-radius: 47px;
     border-color: aquamarine;
-    margin-left:10px;
+    border-style: solid;
     background-repeat: no-repeat;
     position: relative;
     
+
+}
+ 
+.menu1{
+    position: relative;
+    width: auto;
 }
 
- 
+.menu1overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 250px;
+    width: 250px;
+    border-radius: 47px;
+    background: rgba(0,0,0,0.6 );
+    color:azure;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+    backdrop-filter: blur 3px;
+
+}
+.menu1overlay:hover{
+    opacity: 0.75;
+
+}
+.menu1overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.35s;
+}
+.menu1overlay:hover > *{
+    transform: translateY(0);
+}
+.menu1title{
+    font-size: 2em;
+    font-weight: bold
+}
+
+.menu1description{
+    font-size: 15px;
+    margin-top: 0.25em;
+}
+
+.menu2{
+    position: relative;
+    width: auto;
+}
+
+.menu2overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 250px;
+    width: 250px;
+    border-radius: 47px;
+    background: rgba(0,0,0,0.6 );
+    color:azure;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+    backdrop-filter: blur 3px;
+
+}
+.menu2overlay:hover{
+    opacity: 0.75;
+
+}
+.menu2overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.35s;
+}
+.menu2overlay:hover > *{
+    transform: translateY(0);
+}
+.menu2title{
+    font-size: 2em;
+    font-weight: bold
+}
+
+.menu2description{
+    font-size: 15px;
+    margin-top: 0.25em;
+}
+
+.menu3{
+    position: relative;
+    width: auto;
+}
+
+.menu3overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 250px;
+    width: 250px;
+    border-radius: 47px;
+    background: rgba(0,0,0,0.6 );
+    color:azure;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+    backdrop-filter: blur 3px;
+
+}
+.menu3overlay:hover{
+    opacity: 0.75;
+
+}
+.menu3overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.35s;
+}
+.menu3overlay:hover > *{
+    transform: translateY(0);
+}
+.menu3title{
+    font-size: 2em;
+    font-weight: bold
+}
+
+.menu3description{
+    font-size: 15px;
+    margin-top: 0.25em;
+}
